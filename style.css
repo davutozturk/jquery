@@ -37,15 +37,15 @@ cursor: pointer;
 color: black;
 background-color: burlywood;
 }
-.box {
+.box1 {
 height: 150px;
 width: 150px;
-}
-.box-first {
 background-color: red;
 margin-bottom: 10px;
 }
-.box-second {
+.box2 {
+height: 150px;
+width: 150px;
 background-color: seagreen;
 }
 .buttons {
