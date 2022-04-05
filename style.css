@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding-bottom: 250px;
-    background-color: red;
+    background-color: rgb(241, 220, 123);
 }
 h1,h2 {
     text-align: center;
@@ -13,8 +13,8 @@ h1,h2 {
     margin: 10px auto;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
-    border: 5px solid cornflowerblue;
+    background-color: rgb(241, 213, 52);
+    border: 5px solid rgb(73, 43, 43);
 }
 .writings {
     text-align: justify;
@@ -24,54 +24,40 @@ h1,h2 {
     padding: 10px;
 }
 button {
-padding: 10px;
-background-color: cornflowerblue;
-font-size: 18px;
-border: 1px solid black;
-color: white;
+margin-bottom: 24px;
+margin-left: 6px;
+padding: center;
+background-color: rgb(55, 226, 83);
+font-size: 16px;
+border: 2px solid rgb(2, 104, 2);
+color: rgb(90, 9, 9);
 letter-spacing: 2px;
-border-radius: 5px;
+border-radius: 8px;
 }
 button:hover {
 cursor: pointer;
 color: black;
-background-color: burlywood;
+background-color: rgb(168, 189, 219);
 }
 .box1 {
 height: 150px;
 width: 150px;
-background-color: red;
+background-color: rgb(115, 14, 197);
 margin-bottom: 10px;
+margin-left: 10px;
 }
 .box2 {
+margin-left: 10px;
 height: 150px;
 width: 150px;
-background-color: seagreen;
+background-color: rgb(221, 21, 194);
 }
 .buttons {
 margin-top: 10px;
 }
-.time {
-display: flex;
-flex-direction: row;
-justify-content: center;
-color: white;
-font-size: 28px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.round {
-height: 100px;
-width: 100px;
-border-radius: 50px;
-background-color: crimson;
-margin-right: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
 .add {
 border-radius: 20px;
-border: 3px solid crimson;
-color: brown;
-background-color: cornflowerblue;
+border: 3px solid rgb(11, 13, 54);
+color: rgb(155, 77, 13);
+background-color: rgb(71, 218, 51);
 }

@@ -23,6 +23,9 @@ $(document).ready(function () {
     $("#Add-Class").click(function () {
     writings.addClass("add");
     });
+    $("#Remove-Class").click(function () {
+    writings.removeClass("add");
+    });
     $("#Change-Class").click(function () {
     writings.toggleClass("add");
     });
