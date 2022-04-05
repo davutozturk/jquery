@@ -1,12 +1,14 @@
 $(document).ready(function () {
 
-    $("#Hide").click(function () {
-    console.log("okay...");
-    $(".article").hide(800);
-    });
+    var writings = $(".writings");
     $("#Show").click(function () {
-    console.log("okay...");
-    $(".article").show(400);
+    writings.show(400);
+    });
+    $("#Hide").click(function () {
+    writings.hide(800);
+    });
+    $("#Show-Hide").click(function () {
+    writings.toggle(600);
     });
 
 });
