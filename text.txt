@@ -1,0 +1,2 @@
+<h2>JQUERY-AJAX</h2>
+<h2>Activity İs Successful!</h2>

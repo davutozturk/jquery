@@ -24,40 +24,40 @@ h1,h2 {
     padding: 10px;
 }
 button {
-margin-bottom: 24px;
-margin-left: 6px;
-padding: center;
-background-color: rgb(55, 226, 83);
-font-size: 16px;
-border: 2px solid rgb(2, 104, 2);
-color: rgb(90, 9, 9);
-letter-spacing: 2px;
-border-radius: 8px;
+    margin-bottom: 24px;
+    margin-left: 6px;
+    padding: center;
+    background-color: rgb(55, 226, 83);
+    font-size: 16px;
+    border: 2px solid rgb(2, 104, 2);
+    color: rgb(90, 9, 9);
+    letter-spacing: 2px;
+    border-radius: 8px;
 }
 button:hover {
-cursor: pointer;
-color: black;
-background-color: rgb(168, 189, 219);
+    cursor: pointer;
+    color: black;
+    background-color: rgb(168, 189, 219);
 }
 .box1 {
-height: 150px;
-width: 150px;
-background-color: rgb(115, 14, 197);
-margin-bottom: 10px;
-margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(115, 14, 197);
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 .box2 {
-margin-left: 10px;
-height: 150px;
-width: 150px;
-background-color: rgb(221, 21, 194);
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(221, 21, 194);
 }
 .buttons {
-margin-top: 10px;
+    margin-top: 10px;
 }
 .add {
-border-radius: 20px;
-border: 3px solid rgb(11, 13, 54);
-color: rgb(155, 77, 13);
-background-color: rgb(71, 218, 51);
+    border-radius: 20px;
+    border: 3px solid rgb(11, 13, 54);
+    color: rgb(155, 77, 13);
+    background-color: rgb(71, 218, 51);
 }
