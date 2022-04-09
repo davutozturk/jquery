@@ -14,8 +14,8 @@ $(document).ready(function () {
     writings.slideUp(800).slideDown(400);
     });
     $("#Add-Element").click(function () {
-    writings.append("Object");
-    writings.prepend("Subject");
+    writings.prepend("Lorem");
+    writings.append("İpsum");
     });
     $("#Delete-Element").click(function () {
     $("li:first-child").remove();

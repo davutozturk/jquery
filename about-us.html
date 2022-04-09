@@ -12,14 +12,16 @@
 <body>
     
     <div class="frame">
-        <h2>JQUERY-AJAX</h2>
         <div class="buttons">
+        <h2>JQUERY-AJAX</h2>
             <button type="button" id="Click">Click</button>
         </div>
         <script>
             $(function(){
                 $("button").click(function(){ 
-                    $("div").load("text.txt");
+                    $(".buttons").load("text.txt", function() {
+                        alert("Activity is Successful!")
+                    });
                 });
             });
         </script>
